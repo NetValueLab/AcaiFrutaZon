@@ -156,11 +156,7 @@
 @font-face {
     font-family: 'NexaLight';
     src: url('../css/fonts_acai/NexaLight.eot');
-    src: url('../css/fonts_acai/NexaLight.eot?#iefix') format('embedded-opentype'),
-         url('../css/fonts_acai/NexaLight.svg#NexaLight') format('svg'),
-         url('../css/fonts_acai/NexaLight.ttf') format('truetype'),
-         url('../css/fonts_acai/NexaLight.woff') format('woff'),
-         url('../css/fonts_acai/NexaLight.woff2') format('woff2');
+    src: url('../css/fonts_acai/NexaLight.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/NexaLight.svg#NexaLight') format('svg'), url('../css/fonts_acai/NexaLight.ttf') format('truetype'), url('../css/fonts_acai/NexaLight.woff') format('woff'), url('../css/fonts_acai/NexaLight.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -168,16 +164,10 @@
 @font-face {
     font-family: 'NexaBold';
     src: url('../css/fonts_acai/NexaBold.eot');
-    src: url('../css/fonts_acai/NexaBold.eot?#iefix') format('embedded-opentype'),
-         url('../css/fonts_acai/NexaBold.svg#NexaBold') format('svg'),
-         url('../css/fonts_acai/NexaBold.ttf') format('truetype'),
-         url('../css/fonts_acai/NexaBold.woff') format('woff'),
-         url('../css/fonts_acai/NexaBold.woff2') format('woff2');
+    src: url('../css/fonts_acai/NexaBold.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/NexaBold.svg#NexaBold') format('svg'), url('../css/fonts_acai/NexaBold.ttf') format('truetype'), url('../css/fonts_acai/NexaBold.woff') format('woff'), url('../css/fonts_acai/NexaBold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
-  
-  
 
 /*============DISPLAY FLEX=============*/
 .flex {
@@ -270,7 +260,8 @@
     text-align: center;
     padding: 80px 0;
 }
-.onde_encontrar{
+
+.onde_encontrar {
     background-color: #eea300;
 }
 
@@ -278,29 +269,35 @@
     background-attachment: fixed;
     background-image: url(../img/4560.jpg);
     background-size: 100%;
-    height: 815px;
+    /* height: 815px; */
     background-position-y: -5px;
 }
+
 .rodape-att-bg {
     position: relative;
     bottom: -100px;
 }
+
 .bg-right,.bg-left {
     position: absolute;
 }
-.bg-right{
-   right: 0;
-   top: 0;
+
+.bg-right {
+    right: 0;
+    top: 0;
 }
-.bg-left{
-    left:0;
+
+.bg-left {
+    left: 0;
     top: 0em;
 }
-.infos_crr .title_crr{
+
+.infos_crr .title_crr {
     font-weight: bold;
     font-family: 'NexaBold';
 }
-.infos_crr p{
+
+.infos_crr p {
     padding: 0;
     margin: 0;
     color: white;
@@ -308,43 +305,100 @@
 }
 
 /*About*/
-.about-acai{
+.about-acai {
     background-color: #802990;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.about-acai .title-about{
+
+.about-acai .title-about {
     font-family: 'SegoeScript';
     color: white;
     font-size: 8em;
     text-align: center;
     padding: 1em 0;
 }
+
 .about-acai p {
     font-family: 'IsidoraSans-Light';
     color: white;
     padding: 0.5em 6em 0;
     font-size: 1.3em;
 }
-.about-acai p span{
+
+.about-acai p span {
     font-weight: bold;
 }
+
 .about-acai .bg-right, .about-acai .bg-left {
     margin-top: 15em;
 }
-.bg-att-fixed-about{
+
+.bg-att-fixed-about {
     background-attachment: fixed;
     background-image: url(../img/4559.jpg);
     background-size: 100%;
     background-position-y: -5em;
 }
+
 /*End About*/
+footer ul li {
+    display: inline;
+}
 
+footer .footer-div-1 {
+    padding: 2em;
+    display: block;
+    background-color: #642059;
+}
 
+footer ul {
+    display: inline;
+}
+
+footer ul li a {
+    color: white;
+    font-family: 'BebasNeueBook';
+    font-size: 2.6em;
+    padding: 0 0.2em;
+}
+
+footer .footer-div-1,.border-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-div,.header-social-icon,.street-footer {
+    background-color: #642059;
+}
+
+footer .border_footer {
+    border-bottom: 5px solid #eea300;
+    display: inline-block;
+    width: 80%;
+}
+
+.header-social-icon.icon-footer {
+    display: block;
+    text-align: center;
+    padding: 0.5em 0 1em;
+    font-size: 1.8em;
+}
+
+.street-footer p {
+    font-size: 1.8em;
+    color: white;
+    text-align: center;
+    padding: 1em 0 0.5em;
+    display: inline-block;
+}
+
+/*Footer*/
+/*End Fotter*/
 /*===WAVE MOVE===*/
-
 section .wave_orange {
     position: relative;
     width: 132%;
@@ -441,24 +495,29 @@ section .wave_roxo:after {
         top: 140px;
         left: 10%;
     }
-    .bg-att-fixed-home/* ,.bg-att-fixed-abou */t {
-        height: 645px;
+
+    .bg-att-fixed-home/* ,.bg-att-fixed-abou */
+    t {
+        /* height: 645px; */
         background-position-y: 0px;
     }
 }
+
 @media screen and (max-width: 1366px) {
     .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
-        height: 605px;
-        background-position-y: 0px;
+        /* height: 605px; */ background-position-y: 0px;
     }
 }
+
 @media screen and (max-width: 1280px) {
     .logo-desktop {
         top: 115px;
         left: 10%;
     }
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
-        height: 575px;
+
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */
+    {
+        /* height: 575px; */
         background-position-y: 0px;
     }
 }
@@ -468,43 +527,50 @@ section .wave_roxo:after {
         top: 75px;
         left: 5%;
     }
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
-        height: 485px;
+
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */
+    {
+        /* height: 485px; */
         background-position-y: 0px;
         background-size: 200%;
         background-position-x: -50em;
     }
-    .text-home-topo{
+
+    .text-home-topo {
         font-size: 3em;
     }
 }
 
 @media screen and (max-width: 768px) {
     .logo-desktop {
-        top: 150px;
+        top: 135px;
         left: 33%;
     }
+
     .bg-att-fixed-home {
         background-image: url(../img/4560_mobile.jpg);
-        height: 385px;
+        /* height: 385px; */
         background-position-y: -30px;
         background-size: 100%;
         background-position-x: -75em;
     }
-   /*  .bg-att-fixed-about{
+
+    /*  .bg-att-fixed-about{
         height: 385px;
         background-position-y: -30px;
         background-size: 100%;
         background-position-x: -75em;
     } */
-     .text-home-topo{
+    .text-home-topo {
         font-size: 2em;
         padding: 20px 0 !important;
     }
+
     .produtos_home h2,.onde_encontrar h2 {
         font-size: 4em;
         padding: 40px 0;
     }
+
     /*About*/
     .about-acai .bg-right, .about-acai .bg-left {
         margin-top: 25em;
@@ -512,11 +578,17 @@ section .wave_roxo:after {
     }
 
     /*End About*/
+    /*footer*/
+    footer ul li {
+        display: block;
+    }
+
+    /*end footer*/
 }
 
 @media screen and (max-width: 425px) {
     .logo-desktop {
-        top: 180px;
+        top: 165px;
         margin: 0px 25%;
         left: 0;
         text-align: center;
@@ -529,56 +601,95 @@ section .wave_roxo:after {
     .menu {
         display: block;
     }
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
-        height: 260px;
+
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */
+    {
+        /* height: 260px; */
         background-position-y: 1em;
         background-size: 100%;
         background-position-x: -40em;
     }
+
     .bg-right,.bg-left {
         display: none;
     }
+
     .header-social-icon a {
         text-align: center;
         display: inline-block;
     }
+
     /* About*/
     .about-acai .title-about {
         font-size: 4em;
         padding: 0.5em 0;
     }
+
     .about-acai p {
         padding: 0.5em 1em 0;
     }
-    .about-acai img{
+
+    .about-acai img {
         width: 70%;
     }
+
     /*End About*/
-}
-@media screen and (max-width: 414px){
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
-        height: 255px;
+    /*footer*/
+    footer ul li {
+        display: block;
     }
 
-    
+    footer ul li a {
+        font-size: 2.6em;
+    }
+
+    .street-footer p {
+        font-size: 1.2em;
+    }
+
+    footer .footer-div-1, .border-div {
+        flex-direction: column;
+    }
+
+    footer ul {
+        display: inline;
+        margin-top: 2em;
+    }
+
+    .header-social-icon a {
+        font-size: 14px !important;
+    }
+
+    /*end footer*/
 }
+
+@media screen and (max-width: 414px) {
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
+        /* height: 255px; */
+    }
+}
+
 @media screen and (max-width: 375px) {
     .logo-desktop {
-        top: 175px;
+        top: 160px;
         left: 5%;
     }
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
-        height: 240px;
+
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */
+    {
+        /*  height: 240px; */
     }
 }
 
 @media screen and (max-width: 320px) {
     .logo-desktop {
         left: 0%;
-        top: 170px;
+        top: 145px;
         margin: 0px 20%;
     }
-     .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
-        height: 220px;
+
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */
+    {
+        /* height: 220px; */
     }
 }
