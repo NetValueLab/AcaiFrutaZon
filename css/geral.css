@@ -1,0 +1,517 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-Thin';
+    src: url('../css/fonts_acai/IsidoraSans-Thin.eot');
+    /* IE9 Compat Modes */
+    src: url('../css/fonts_acai/IsidoraSans-Thin.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */ url('../css/fonts_acai/IsidoraSans-Thin.svg#IsidoraSans-Thin') format('svg'),/* Legacy iOS */ url('../css/fonts_acai/IsidoraSans-Thin.ttf') format('truetype'),/* Safari, Android, iOS */ url('../css/fonts_acai/IsidoraSans-Thin.woff') format('woff'),/* Modern Browsers */ url('../css/fonts_acai/IsidoraSans-Thin.woff2') format('woff2');
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-SemiBoldItalic';
+    src: url('../css/fonts_acai/IsidoraSans-SemiBoldItalic.eot');
+    /* IE9 Compat Modes */
+    src: url('../css/fonts_acai/IsidoraSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */ url('../css/fonts_acai/IsidoraSans-SemiBoldItalic.svg#IsidoraSans-SemiBoldItalic') format('svg'),/* Legacy iOS */ url('../css/fonts_acai/IsidoraSans-SemiBoldItalic.ttf') format('truetype'),/* Safari, Android, iOS */ url('../css/fonts_acai/IsidoraSans-SemiBoldItalic.woff') format('woff'),/* Modern Browsers */ url('../css/fonts_acai/IsidoraSans-SemiBoldItalic.woff2') format('woff2');
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-SemiBold';
+    src: url('../css/fonts_acai/IsidoraSans-SemiBold.eot');
+    /* IE9 Compat Modes */
+    src: url('../css/fonts_acai/IsidoraSans-SemiBold.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */ url('../css/fonts_acai/IsidoraSans-SemiBold.svg#IsidoraSans-SemiBold') format('svg'),/* Legacy iOS */ url('../css/fonts_acai/IsidoraSans-SemiBold.ttf') format('truetype'),/* Safari, Android, iOS */ url('../css/fonts_acai/IsidoraSans-SemiBold.woff') format('woff'),/* Modern Browsers */ url('../css/fonts_acai/IsidoraSans-SemiBold.woff2') format('woff2');
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-RegularItalic';
+    src: url('../css/fonts_acai/IsidoraSans-RegularItalic.eot');
+    src: url('../css/fonts_acai/IsidoraSans-RegularItalic.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/IsidoraSans-RegularItalic.svg#IsidoraSans-RegularItalic') format('svg'), url('../css/fonts_acai/IsidoraSans-RegularItalic.ttf') format('truetype'), url('../css/fonts_acai/IsidoraSans-RegularItalic.woff') format('woff'), url('../css/fonts_acai/IsidoraSans-RegularItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-MediumItalic';
+    src: url('../css/fonts_acai/IsidoraSans-MediumItalic.eot');
+    src: url('../css/fonts_acai/IsidoraSans-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/IsidoraSans-MediumItalic.svg#IsidoraSans-MediumItalic') format('svg'), url('../css/fonts_acai/IsidoraSans-MediumItalic.ttf') format('truetype'), url('../css/fonts_acai/IsidoraSans-MediumItalic.woff') format('woff'), url('../css/fonts_acai/IsidoraSans-MediumItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-Regular';
+    src: url('../css/fonts_acai/IsidoraSans-Regular.eot');
+    src: url('../css/fonts_acai/IsidoraSans-Regular.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/IsidoraSans-Regular.svg#IsidoraSans-Regular') format('svg'), url('../css/fonts_acai/IsidoraSans-Regular.ttf') format('truetype'), url('../css/fonts_acai/IsidoraSans-Regular.woff') format('woff'), url('../css/fonts_acai/IsidoraSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-Medium';
+    src: url('../css/fonts_acai/IsidoraSans-Medium.eot');
+    src: url('../css/fonts_acai/IsidoraSans-Medium.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/IsidoraSans-Medium.svg#IsidoraSans-Medium') format('svg'), url('../css/fonts_acai/IsidoraSans-Medium.ttf') format('truetype'), url('../css/fonts_acai/IsidoraSans-Medium.woff') format('woff'), url('../css/fonts_acai/IsidoraSans-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-LightItalic';
+    src: url('../css/fonts_acai/IsidoraSans-LightItalic.eot');
+    src: url('../css/fonts_acai/IsidoraSans-LightItalic.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/IsidoraSans-LightItalic.svg#IsidoraSans-LightItalic') format('svg'), url('../css/fonts_acai/IsidoraSans-LightItalic.ttf') format('truetype'), url('../css/fonts_acai/IsidoraSans-LightItalic.woff') format('woff'), url('../css/fonts_acai/IsidoraSans-LightItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-Light';
+    src: url('../css/fonts_acai/IsidoraSans-Light.eot');
+    src: url('../css/fonts_acai/IsidoraSans-Light.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/IsidoraSans-Light.svg#IsidoraSans-Light') format('svg'), url('../css/fonts_acai/IsidoraSans-Light.ttf') format('truetype'), url('../css/fonts_acai/IsidoraSans-Light.woff') format('woff'), url('../css/fonts_acai/IsidoraSans-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-BoldItalic';
+    src: url('../css/fonts_acai/IsidoraSans-BoldItalic.eot');
+    src: url('../css/fonts_acai/IsidoraSans-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/IsidoraSans-BoldItalic.svg#IsidoraSans-BoldItalic') format('svg'), url('../css/fonts_acai/IsidoraSans-BoldItalic.ttf') format('truetype'), url('../css/fonts_acai/IsidoraSans-BoldItalic.woff') format('woff'), url('../css/fonts_acai/IsidoraSans-BoldItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-Bold';
+    src: url('../css/fonts_acai/IsidoraSans-Bold.eot');
+    src: url('../css/fonts_acai/IsidoraSans-Bold.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/IsidoraSans-Bold.svg#IsidoraSans-Bold') format('svg'), url('../css/fonts_acai/IsidoraSans-Bold.ttf') format('truetype'), url('../css/fonts_acai/IsidoraSans-Bold.woff') format('woff'), url('../css/fonts_acai/IsidoraSans-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-BlackItalic';
+    src: url('../css/fonts_acai/IsidoraSans-BlackItalic.eot');
+    src: url('../css/fonts_acai/IsidoraSans-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/IsidoraSans-BlackItalic.svg#IsidoraSans-BlackItalic') format('svg'), url('../css/fonts_acai/IsidoraSans-BlackItalic.ttf') format('truetype'), url('../css/fonts_acai/IsidoraSans-BlackItalic.woff') format('woff'), url('../css/fonts_acai/IsidoraSans-BlackItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-Black';
+    src: url('../css/fonts_acai/IsidoraSans-Black.eot');
+    src: url('../css/fonts_acai/IsidoraSans-Black.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/IsidoraSans-Black.svg#IsidoraSans-Black') format('svg'), url('../css/fonts_acai/IsidoraSans-Black.ttf') format('truetype'), url('../css/fonts_acai/IsidoraSans-Black.woff') format('woff'), url('../css/fonts_acai/IsidoraSans-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('../css/fonts_acai/BebasNeue-Regular.eot');
+    src: url('../css/fonts_acai/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/BebasNeue-Regular.svg#BebasNeue-Regular') format('svg'), url('../css/fonts_acai/BebasNeue-Regular.ttf') format('truetype'), url('../css/fonts_acai/BebasNeue-Regular.woff') format('woff'), url('../css/fonts_acai/BebasNeue-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IsidoraSans-ThinItalic';
+    src: url('../css/fonts_acai/IsidoraSans-ThinItalic.eot');
+    src: url('../css/fonts_acai/IsidoraSans-ThinItalic.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/IsidoraSans-ThinItalic.svg#IsidoraSans-ThinItalic') format('svg'), url('../css/fonts_acai/IsidoraSans-ThinItalic.ttf') format('truetype'), url('../css/fonts_acai/IsidoraSans-ThinItalic.woff') format('woff'), url('../css/fonts_acai/IsidoraSans-ThinItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BebasNeueBook';
+    src: url('BebasNeueBook.eot');
+    src: url('../css/fonts_acai/BebasNeueBook.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/BebasNeueBook.svg#BebasNeueBook') format('svg'), url('../css/fonts_acai/BebasNeueBook.ttf') format('truetype'), url('../css/fonts_acai/BebasNeueBook.woff') format('woff'), url('../css/fonts_acai/BebasNeueBook.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quentin';
+    src: url('../css/fonts_acai/Quentin.eot');
+    src: url('../css/fonts_acai/Quentin.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/Quentin.svg#Quentin') format('svg'), url('../css/fonts_acai/Quentin.ttf') format('truetype'), url('../css/fonts_acai/Quentin.woff') format('woff'), url('../css/fonts_acai/Quentin.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeScript';
+    src: url('../css/fonts_acai/SegoeScript.eot');
+    src: url('../css/fonts_acai/SegoeScript.eot?#iefix') format('embedded-opentype'), url('../css/fonts_acai/SegoeScript.svg#SegoeScript') format('svg'), url('../css/fonts_acai/SegoeScript.ttf') format('truetype'), url('../css/fonts_acai/SegoeScript.woff') format('woff'), url('../css/fonts_acai/SegoeScript.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NexaLight';
+    src: url('../css/fonts_acai/NexaLight.eot');
+    src: url('../css/fonts_acai/NexaLight.eot?#iefix') format('embedded-opentype'),
+         url('../css/fonts_acai/NexaLight.svg#NexaLight') format('svg'),
+         url('../css/fonts_acai/NexaLight.ttf') format('truetype'),
+         url('../css/fonts_acai/NexaLight.woff') format('woff'),
+         url('../css/fonts_acai/NexaLight.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NexaBold';
+    src: url('../css/fonts_acai/NexaBold.eot');
+    src: url('../css/fonts_acai/NexaBold.eot?#iefix') format('embedded-opentype'),
+         url('../css/fonts_acai/NexaBold.svg#NexaBold') format('svg'),
+         url('../css/fonts_acai/NexaBold.ttf') format('truetype'),
+         url('../css/fonts_acai/NexaBold.woff') format('woff'),
+         url('../css/fonts_acai/NexaBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+  
+
+/*============DISPLAY FLEX=============*/
+.flex {
+    display: flex;
+}
+
+.v-center {
+    align-items: center;
+}
+
+.h-center {
+    justify-content: center;
+}
+
+.line {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.right-flex {
+    justify-content: flex-end;
+}
+
+.left-flex {
+    justify-content: flex-start;
+}
+
+/*=================CINTRA COMUNICAÃ‡Ã•ES================*/
+.navbar-one {
+    background-color: #642059;
+    padding: 10px;
+}
+
+.logo-desktop {
+    position: absolute;
+    top: 185px;
+    z-index: 999;
+    left: 15%;
+}
+
+.logo-desktop a img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-home-topo {
+    background-color: #eea300;
+    color: white;
+    font-family: 'Quentin';
+    font-size: 4em;
+}
+
+.quem_somos, .produtos_home {
+    display: flex;
+    justify-content: center;
+}
+
+.quem_somos_home, .produtos_home div:nth-child(1) {
+    max-width: 1280px;
+}
+
+.quem_somos h1 {
+    color: #802990;
+}
+
+.quem_somos h1, .quem_somos p {
+    font-family: 'IsidoraSans-Light';
+}
+
+.quem_somos p {
+    font-size: 2em;
+}
+
+.produtos_home {
+    background-color: #802990;
+}
+
+.produtos_home h2,.onde_encontrar h2 {
+    font-family: 'SegoeScript';
+    color: white;
+    font-size: 8em;
+    text-align: center;
+    padding: 80px 0;
+}
+.onde_encontrar{
+    background-color: #eea300;
+}
+
+.bg-att-fixed-home {
+    background-attachment: fixed;
+    background-image: url(../img/4560.jpg);
+    background-size: 100%;
+    height: 815px;
+    background-position-y: -5px;
+}
+.rodape-att-bg {
+    position: relative;
+    bottom: -100px;
+}
+.bg-right,.bg-left {
+    position: absolute;
+}
+.bg-right{
+   right: 0;
+   top: 0;
+}
+.bg-left{
+    left:0;
+    top: 0em;
+}
+.infos_crr .title_crr{
+    font-weight: bold;
+    font-family: 'NexaBold';
+}
+.infos_crr p{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'NexaLight';
+}
+section .wave_orange {
+    position: relative;
+    width: 132%;
+    height: 143px;
+    top: -1px;
+    left: 0;
+    background: url(../img/wave_orange.png);
+    animation: animate 5s linear infinite;
+}
+
+section .wave_orange:before {
+    content: '';
+    width: 100%;
+    height: 143px;
+    background: url(../img/wave_orange.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+    animation-delay: -8s;
+    animation: animate 10s linear infinite;
+}
+
+section .wave_orange:after {
+    content: '';
+    width: 100%;
+    height: 143px;
+    background: url(../img/wave_orange.png);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.4;
+    animation: animate-reverse 8s linear infinite;
+}
+
+section .wave_roxo {
+    position: relative;
+    width: 132%;
+    height: 143px;
+    top: 0;
+    left: 0;
+    background: url(../img/wave_roxo.png);
+    animation: animate 5s linear infinite;
+}
+
+section .wave_roxo:before {
+    content: '';
+    width: 100%;
+    height: 143px;
+    background: url(../img/wave_roxo.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+    animation-delay: -8s;
+    animation: animate 10s linear infinite;
+}
+
+section .wave_roxo:after {
+    content: '';
+    width: 100%;
+    height: 143px;
+    background: url(../img/wave_roxo.png);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.4;
+    animation: animate-reverse 8s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 1360px;
+    }
+}
+
+@keyframes animate-reverse {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 1360px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .logo-desktop {
+        top: 140px;
+        left: 10%;
+    }
+    .bg-att-fixed-home {
+        height: 645px;
+        background-position-y: 0px;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .bg-att-fixed-home {
+        height: 605px;
+        background-position-y: 0px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .logo-desktop {
+        top: 115px;
+        left: 10%;
+    }
+    .bg-att-fixed-home {
+        height: 575px;
+        background-position-y: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo-desktop {
+        top: 75px;
+        left: 5%;
+    }
+    .bg-att-fixed-home {
+        height: 485px;
+        background-position-y: 0px;
+        background-size: 200%;
+        background-position-x: -50em;
+    }
+    .text-home-topo{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-desktop {
+        top: 150px;
+        left: 33%;
+    }
+    .bg-att-fixed-home {
+        background-image: url(../img/4560_mobile.jpg);
+        height: 385px;
+        background-position-y: -30px;
+        background-size: 100%;
+        background-position-x: -75em;
+    }
+     .text-home-topo{
+        font-size: 2em;
+        padding: 20px 0 !important;
+    }
+    .produtos_home h2,.onde_encontrar h2 {
+        font-size: 4em;
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .logo-desktop {
+        top: 180px;
+        margin: 0px 25%;
+        left: 0;
+        text-align: center;
+    }
+
+    .logo-desktop a img {
+        width: 50%;
+    }
+
+    .menu {
+        display: block;
+    }
+    .bg-att-fixed-home {
+        height: 260px;
+        background-position-y: 1em;
+        background-size: 100%;
+        background-position-x: -40em;
+    }
+    .bg-right,.bg-left {
+        display: none;
+    }
+    .header-social-icon a {
+        text-align: center;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 414px){
+    .bg-att-fixed-home {
+        height: 255px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .logo-desktop {
+        top: 175px;
+        left: 5%;
+    }
+    .bg-att-fixed-home {
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo-desktop {
+        left: 0%;
+        top: 170px;
+        margin: 0px 20%;
+    }
+     .bg-att-fixed-home {
+        height: 220px;
+    }
+}
