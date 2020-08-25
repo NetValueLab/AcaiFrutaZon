@@ -243,7 +243,7 @@
     justify-content: center;
 }
 
-.quem_somos_home, .produtos_home div:nth-child(1) {
+.quem_somos_home, .produtos_home div:nth-child(1),.limit-about {
     max-width: 1280px;
 }
 
@@ -306,6 +306,45 @@
     color: white;
     font-family: 'NexaLight';
 }
+
+/*About*/
+.about-acai{
+    background-color: #802990;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about-acai .title-about{
+    font-family: 'SegoeScript';
+    color: white;
+    font-size: 8em;
+    text-align: center;
+    padding: 1em 0;
+}
+.about-acai p {
+    font-family: 'IsidoraSans-Light';
+    color: white;
+    padding: 0.5em 6em 0;
+    font-size: 1.3em;
+}
+.about-acai p span{
+    font-weight: bold;
+}
+.about-acai .bg-right, .about-acai .bg-left {
+    margin-top: 15em;
+}
+.bg-att-fixed-about{
+    background-attachment: fixed;
+    background-image: url(../img/4559.jpg);
+    background-size: 100%;
+    background-position-y: -5em;
+}
+/*End About*/
+
+
+/*===WAVE MOVE===*/
+
 section .wave_orange {
     position: relative;
     width: 132%;
@@ -396,18 +435,19 @@ section .wave_roxo:after {
     }
 }
 
+/*===END WAVE MOVE===*/
 @media screen and (max-width: 1440px) {
     .logo-desktop {
         top: 140px;
         left: 10%;
     }
-    .bg-att-fixed-home {
+    .bg-att-fixed-home/* ,.bg-att-fixed-abou */t {
         height: 645px;
         background-position-y: 0px;
     }
 }
 @media screen and (max-width: 1366px) {
-    .bg-att-fixed-home {
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
         height: 605px;
         background-position-y: 0px;
     }
@@ -417,7 +457,7 @@ section .wave_roxo:after {
         top: 115px;
         left: 10%;
     }
-    .bg-att-fixed-home {
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
         height: 575px;
         background-position-y: 0px;
     }
@@ -428,7 +468,7 @@ section .wave_roxo:after {
         top: 75px;
         left: 5%;
     }
-    .bg-att-fixed-home {
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
         height: 485px;
         background-position-y: 0px;
         background-size: 200%;
@@ -451,6 +491,12 @@ section .wave_roxo:after {
         background-size: 100%;
         background-position-x: -75em;
     }
+   /*  .bg-att-fixed-about{
+        height: 385px;
+        background-position-y: -30px;
+        background-size: 100%;
+        background-position-x: -75em;
+    } */
      .text-home-topo{
         font-size: 2em;
         padding: 20px 0 !important;
@@ -459,6 +505,13 @@ section .wave_roxo:after {
         font-size: 4em;
         padding: 40px 0;
     }
+    /*About*/
+    .about-acai .bg-right, .about-acai .bg-left {
+        margin-top: 25em;
+        z-index: 0;
+    }
+
+    /*End About*/
 }
 
 @media screen and (max-width: 425px) {
@@ -476,7 +529,7 @@ section .wave_roxo:after {
     .menu {
         display: block;
     }
-    .bg-att-fixed-home {
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
         height: 260px;
         background-position-y: 1em;
         background-size: 100%;
@@ -489,18 +542,32 @@ section .wave_roxo:after {
         text-align: center;
         display: inline-block;
     }
+    /* About*/
+    .about-acai .title-about {
+        font-size: 4em;
+        padding: 0.5em 0;
+    }
+    .about-acai p {
+        padding: 0.5em 1em 0;
+    }
+    .about-acai img{
+        width: 70%;
+    }
+    /*End About*/
 }
 @media screen and (max-width: 414px){
-    .bg-att-fixed-home {
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
         height: 255px;
     }
+
+    
 }
 @media screen and (max-width: 375px) {
     .logo-desktop {
         top: 175px;
         left: 5%;
     }
-    .bg-att-fixed-home {
+    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
         height: 240px;
     }
 }
@@ -511,7 +578,7 @@ section .wave_roxo:after {
         top: 170px;
         margin: 0px 20%;
     }
-     .bg-att-fixed-home {
+     .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
         height: 220px;
     }
 }
