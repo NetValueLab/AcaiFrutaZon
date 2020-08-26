@@ -199,6 +199,14 @@
 }
 
 /*=================CINTRA COMUNIÇÕES================*/
+.desktop-banner {
+    display: block !important;
+}
+
+.mobile-banner {
+    display: none !important;
+}
+
 .navbar-one {
     background-color: #642059;
     padding: 10px;
@@ -344,6 +352,16 @@
 }
 
 /*End About*/
+/*Products*/
+.wave-bg,.wave-products-bottom{
+    background-color: #802990;
+}
+.products .bg-right, .products .bg-left{
+    margin-top: 10em;
+}
+/*End Products*/
+
+/*Footerr*/
 footer ul li {
     display: inline;
 }
@@ -397,7 +415,6 @@ footer .border_footer {
     width: 100%;
 }
 
-/*Footer*/
 /*End Fotter*/
 /*===WAVE MOVE===*/
 section .wave_orange {
@@ -497,8 +514,7 @@ section .wave_roxo:after {
         left: 10%;
     }
 
-    .bg-att-fixed-home
-    t {
+    .bg-att-fixed-home t {
         /* height: 645px; */
         background-position-y: 0px;
     }
@@ -506,7 +522,7 @@ section .wave_roxo:after {
 
 @media screen and (max-width: 1366px) {
     .bg-att-fixed-home {
-       background-position-y: 0px;
+        background-position-y: 0px;
     }
 }
 
@@ -516,8 +532,7 @@ section .wave_roxo:after {
         left: 10%;
     }
 
-    .bg-att-fixed-home
-    {
+    .bg-att-fixed-home {
         background-position-y: 0px;
     }
 }
@@ -528,8 +543,7 @@ section .wave_roxo:after {
         left: 5%;
     }
 
-    .bg-att-fixed-home
-    {
+    .bg-att-fixed-home {
         /* height: 485px; */
         background-position-y: 0px;
         background-size: 200%;
@@ -542,8 +556,16 @@ section .wave_roxo:after {
 }
 
 @media screen and (max-width: 768px) {
+    .desktop-banner {
+        display: none !important;
+    }
+
+    .mobile-banner {
+        display: block !important;
+    }
+
     .logo-desktop {
-        top: 135px;
+        top: 25em;
         left: 33%;
     }
 
@@ -554,6 +576,7 @@ section .wave_roxo:after {
         background-size: 100%;
         background-position-x: -75em;
     }
+
     .text-home-topo {
         font-size: 2em;
         padding: 20px 0 !important;
@@ -565,12 +588,17 @@ section .wave_roxo:after {
     }
 
     /*About*/
-    .about-acai .bg-right, .about-acai .bg-left {
+    .about-acai .bg-right, .about-acai .bg-left{
         margin-top: 25em;
         z-index: 0;
     }
 
     /*End About*/
+    /*Products*/
+    .products .bg-right, .products .bg-left{
+        margin-top: 7em;
+    }
+    /*End Products*/
     /*footer*/
     footer ul li {
         display: block;
@@ -581,7 +609,7 @@ section .wave_roxo:after {
 
 @media screen and (max-width: 425px) {
     .logo-desktop {
-        top: 165px;
+        top: 39.5em;
         margin: 0px 25%;
         left: 0;
         text-align: center;
@@ -595,8 +623,7 @@ section .wave_roxo:after {
         display: block;
     }
 
-    .bg-att-fixed-home
-    {
+    .bg-att-fixed-home {
         background-position-y: 1em;
         background-size: 100%;
         background-position-x: -40em;
@@ -656,11 +683,17 @@ section .wave_roxo:after {
 }
 
 @media screen and (max-width: 414px) {
+    .logo-desktop {
+        top: 38.5em;
+        margin: 0px 25%;
+        left: 0;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 375px) {
     .logo-desktop {
-        top: 160px;
+        top: 36em;
         left: 5%;
     }
 }
@@ -668,7 +701,18 @@ section .wave_roxo:after {
 @media screen and (max-width: 320px) {
     .logo-desktop {
         left: 0%;
-        top: 145px;
+        top: 31em;
         margin: 0px 20%;
+    }
+    .team-image.xs-width-100 img {
+        width: 90%;
+    }
+    .team-image.xs-width-100{
+        text-align: center;
+    }
+    
+    .team-member-position.offset-20px-top.text-left.infos_crr p
+     {
+        padding: 0 2em;
     }
 }
