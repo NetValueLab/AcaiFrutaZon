@@ -1608,8 +1608,8 @@ textarea.input-bg {
 }
 
 .btn.btn-secondary {
-	background: #2f1f16;
-	border-color: #2f1f16;
+	background: #802990;
+	border-color: #802990;
 	color: #ffffff;
 }
 
@@ -9187,13 +9187,13 @@ textarea.form-input {
 .bg-extra-dark-gray .form-label,
 .bg-black .form-input,
 .bg-black .form-label {
-	color: #fafafa;
+	color: black;
 }
 
 .bg-light-gray .form-input,
 .bg-extra-dark-gray .form-input,
 .bg-black .form-input {
-	background-color: transparent;
+	background-color: white;
 	border-color: #fafafa;
 }
 

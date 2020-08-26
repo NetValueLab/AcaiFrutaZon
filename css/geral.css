@@ -360,7 +360,15 @@
     margin-top: 10em;
 }
 /*End Products*/
-
+/*Contato*/
+.form-back-radius.form_color.inset-fifteen-all.bg-light-gray.border-radius-6.md-padding-seven-all.xs-padding-30px-all.height-100 {
+    background-color: orange;
+}
+.logo-contato {
+    display: flex;
+    justify-content: center;
+}
+/*End contato*/
 /*Footerr*/
 footer ul li {
     display: inline;
@@ -653,6 +661,11 @@ section .wave_roxo:after {
     }
 
     /*End About*/
+    /*Contact*/
+    .form-button.group-sm.text-center.text-lg-left {
+        margin-top: 2em;
+    }
+    /*End Contact*/
     /*footer*/
     footer ul li {
         display: block;
