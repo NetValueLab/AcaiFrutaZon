@@ -198,7 +198,7 @@
     justify-content: flex-start;
 }
 
-/*=================CINTRA COMUNICAÃ‡Ã•ES================*/
+/*=================CINTRA COMUNIÇÕES================*/
 .navbar-one {
     background-color: #642059;
     padding: 10px;
@@ -497,7 +497,7 @@ section .wave_roxo:after {
         left: 10%;
     }
 
-    .bg-att-fixed-home/* ,.bg-att-fixed-abou */
+    .bg-att-fixed-home
     t {
         /* height: 645px; */
         background-position-y: 0px;
@@ -505,8 +505,8 @@ section .wave_roxo:after {
 }
 
 @media screen and (max-width: 1366px) {
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
-        /* height: 605px; */ background-position-y: 0px;
+    .bg-att-fixed-home {
+       background-position-y: 0px;
     }
 }
 
@@ -516,9 +516,8 @@ section .wave_roxo:after {
         left: 10%;
     }
 
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */
+    .bg-att-fixed-home
     {
-        /* height: 575px; */
         background-position-y: 0px;
     }
 }
@@ -529,7 +528,7 @@ section .wave_roxo:after {
         left: 5%;
     }
 
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */
+    .bg-att-fixed-home
     {
         /* height: 485px; */
         background-position-y: 0px;
@@ -555,13 +554,6 @@ section .wave_roxo:after {
         background-size: 100%;
         background-position-x: -75em;
     }
-
-    /*  .bg-att-fixed-about{
-        height: 385px;
-        background-position-y: -30px;
-        background-size: 100%;
-        background-position-x: -75em;
-    } */
     .text-home-topo {
         font-size: 2em;
         padding: 20px 0 !important;
@@ -603,9 +595,8 @@ section .wave_roxo:after {
         display: block;
     }
 
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */
+    .bg-att-fixed-home
     {
-        /* height: 260px; */
         background-position-y: 1em;
         background-size: 100%;
         background-position-x: -40em;
@@ -665,20 +656,12 @@ section .wave_roxo:after {
 }
 
 @media screen and (max-width: 414px) {
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */ {
-        /* height: 255px; */
-    }
 }
 
 @media screen and (max-width: 375px) {
     .logo-desktop {
         top: 160px;
         left: 5%;
-    }
-
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */
-    {
-        /*  height: 240px; */
     }
 }
 
@@ -687,10 +670,5 @@ section .wave_roxo:after {
         left: 0%;
         top: 145px;
         margin: 0px 20%;
-    }
-
-    .bg-att-fixed-home/* ,.bg-att-fixed-about */
-    {
-        /* height: 220px; */
     }
 }
