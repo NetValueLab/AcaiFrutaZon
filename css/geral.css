@@ -230,7 +230,7 @@
 }
 
 .text-home-topo {
-    background-color: #eea300;
+    background-color: #eeb300;
     color: white;
     font-family: 'Quentin';
     font-size: 4em;
@@ -246,7 +246,7 @@
 }
 
 .quem_somos h1 {
-    color: #802990;
+    color: #803990;
 }
 
 .quem_somos h1, .quem_somos p {
@@ -258,7 +258,7 @@
 }
 
 .produtos_home {
-    background-color: #802990;
+    background-color: #803990;
 }
 
 .produtos_home h2,.onde_encontrar h2 {
@@ -270,7 +270,7 @@
 }
 
 .onde_encontrar {
-    background-color: #eea300;
+    background-color: #eeb300;
 }
 
 .bg-att-fixed-home {
@@ -314,7 +314,7 @@
 
 /*About*/
 .about-acai {
-    background-color: #802990;
+    background-color: #803990;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -354,7 +354,7 @@
 /*End About*/
 /*Products*/
 .wave-bg,.wave-products-bottom{
-    background-color: #802990;
+    background-color: #803990;
 }
 .products .bg-right, .products .bg-left{
     margin-top: 10em;
@@ -370,7 +370,7 @@
     padding: 2em;
 }
 .title-what-shopping{
-    background-color: #eea300;
+    background-color: #eeb300;
     overflow: hidden;
 }
 .title-what-shopping h1{
@@ -468,7 +468,7 @@ footer .footer-div-1,.border-div {
 }
 
 footer .border_footer {
-    border-bottom: 5px solid #eea300;
+    border-bottom: 5px solid #eeb300;
     display: inline-block;
     width: 80%;
 }
