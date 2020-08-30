@@ -393,6 +393,38 @@
     margin-bottom: 3em;
 }
 /*End What Shopping*/ 
+/*Benefícios*/
+.limite-beneficios-center{
+    display: flex;
+    justify-content: center;
+}
+.limite-beneficios{
+    max-width: 1180px;
+}
+.beneficios-acai h1{
+    color: #642059;
+    font-family: 'SegoeScript';
+    font-size: 8em;
+    text-align: center;
+    padding: 80px 0;
+}
+.beneficios-acai p{
+    text-align: center;
+    font-family: 'NexaLight';
+    color: #642059;
+    font-size: 1.2em;
+}
+.beneficios-acai p span{
+    font-family: 'NexaBold';
+}
+.beneficios-acai div img{
+    margin: 2em;
+}
+.center-text-img {
+    display: flex;
+    align-items: center;
+}
+/*End Benefícios*/
 /*Contato*/
 .form-back-radius.form_color.inset-fifteen-all.bg-light-gray.border-radius-6.md-padding-seven-all.xs-padding-30px-all.height-100 {
     background-color: orange;
@@ -624,7 +656,7 @@ section .wave_roxo:after {
         padding: 20px 0 !important;
     }
 
-    .produtos_home h2,.onde_encontrar h2, .title-what-shopping h1 {
+    .produtos_home h2,.onde_encontrar h2, .title-what-shopping h1,.beneficios-acai h1 {
         font-size: 4em;
         padding: 40px 0;
     }
@@ -636,6 +668,18 @@ section .wave_roxo:after {
     }
 
     /*End About*/
+    /*Beneficios*/
+    .center-text-img {
+        flex-direction: column;
+    }
+    .beneficios-acai div img {
+        margin: 0em;
+        padding: 2em;
+    }
+    .beneficios-acai p{
+        padding: 0.5em;
+    }
+    /*End Beneficios*/
     /*Products*/
     .products .bg-right, .products .bg-left{
         margin-top: 7em;
@@ -695,6 +739,11 @@ section .wave_roxo:after {
     }
 
     /*End About*/
+    /*Beneficios*/
+    .beneficios-acai p{
+        padding: 1em;
+    }
+    /*End Beneficios*/
     /*Contact*/
     .form-button.group-sm.text-center.text-lg-left {
         margin-top: 2em;
