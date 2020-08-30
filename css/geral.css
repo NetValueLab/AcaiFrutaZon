@@ -643,12 +643,8 @@ section .wave_roxo:after {
         left: 33%;
     }
 
-    .bg-att-fixed-home {
-        background-image: url(../img/4560_mobile.jpg);
-        /* height: 385px; */
-        background-position-y: -30px;
-        background-size: 100%;
-        background-position-x: -75em;
+    .bg-att-fixed-home,.bg-att-fixed-about {
+        display: none;
     }
 
     .text-home-topo {
@@ -709,11 +705,11 @@ section .wave_roxo:after {
         display: block;
     }
 
-    .bg-att-fixed-home {
+ /*    .bg-att-fixed-home {
         background-position-y: 1em;
         background-size: 100%;
         background-position-x: -40em;
-    }
+    } */
 
     .bg-right,.bg-left {
         display: none;
