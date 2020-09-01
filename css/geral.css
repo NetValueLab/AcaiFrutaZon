@@ -280,9 +280,6 @@
     /* height: 815px; */
     background-position-y: -5px;
 }
-section.col-md-12.col-sm-12.no-inset.bg-att-fixed-home div img {
-    width: 100%;
-}
 
 .rodape-att-bg {
     position: relative;
@@ -751,6 +748,7 @@ section .wave_roxo:after {
     /*footer*/
     footer ul li {
         display: block;
+        padding: 0.5em;
     }
 
     footer ul li a {
